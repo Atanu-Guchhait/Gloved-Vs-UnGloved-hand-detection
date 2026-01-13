@@ -71,7 +71,7 @@ GloveVSUnGlove/
 
 
 ## 📊 Dataset
-
+Dataset Link : https://universe.roboflow.com/assessment-ftrxw/gloved_hand-vs-bare_hand-5d9bg-hwqst?utm_source=chatgpt.com
 - Dataset format: **YOLO annotation format**
 - Labels:
   - `0` → gloved_hand
@@ -201,5 +201,5 @@ Industrial computer vision solutions
 Atanu Guchhait
 B.Tech (CSE – AI & ML)
 Aspiring Data Scientist / ML Engineer
-## 📁 Project Structure
+
 
