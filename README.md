@@ -41,7 +41,7 @@ from images captured by factory cameras.
   - `numpy`
   - `tqdm`
 
----
+```text
 GloveVSUnGlove/
 ├── dataset/
 │   ├── train/
@@ -67,10 +67,8 @@ GloveVSUnGlove/
 ├── detect_folder.py         # Folder-based inference + JSON logging
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
+```
 
-
-
----
 
 ## 📊 Dataset
 
