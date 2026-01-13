@@ -57,16 +57,18 @@ GloveVSUnGlove/
 │       ├── images/
 │       └── labels/
 │
-├── input_images/          # Images used for inference
-├── output/                # Output results
-│   ├── images/            # Annotated images
-│   └── detections.json    # Detection results in JSON format
+├── input_images/            # Images used for inference
 │
-├── data.yml               # Dataset configuration file
-├── train.py               # Model training script
-├── detect_folder.py       # Folder-based inference + JSON logging
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
+├── output/                  # Output results
+│   ├── images/              # Annotated images
+│   └── detections.json      # Detection results in JSON format
+│
+├── data.yml                 # Dataset configuration file
+├── train.py                 # Model training script
+├── detect_folder.py         # Folder-based inference + JSON logging
+├── requirements.txt         # Python dependencies
+└── README.md                # Project documentation
+
 
 
 
