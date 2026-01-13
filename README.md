@@ -44,26 +44,30 @@ from images captured by factory cameras.
 ---
 
 GloveVSUnGlove/
-│
 ├── dataset/
-│ ├── train/
-│ │ ├── images/
-│ │ └── labels/
-│ ├── valid/
-│ │ ├── images/
-│ │ └── labels/
-│ └── test/
-│ ├── images/
-│ └── labels/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   │
+│   ├── valid/
+│   │   ├── images/
+│   │   └── labels/
+│   │
+│   └── test/
+│       ├── images/
+│       └── labels/
 │
-├── input_images/ # Images for inference
-├── output/ # Annotated images + JSON results
+├── input_images/          # Images used for inference
+├── output/                # Output results
+│   ├── images/            # Annotated images
+│   └── detections.json    # Detection results in JSON format
 │
-├── data.yml # Dataset configuration
-├── train.py # Training script
-├── detect_folder.py # Inference + JSON logging
-├── requirements.txt
-└── README.md
+├── data.yml               # Dataset configuration file
+├── train.py               # Model training script
+├── detect_folder.py       # Folder-based inference + JSON logging
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+
 
 
 ---
