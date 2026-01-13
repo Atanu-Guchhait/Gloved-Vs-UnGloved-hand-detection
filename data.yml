@@ -1,0 +1,9 @@
+path: dataset
+
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: gloved_hand
+  1: bare_hand

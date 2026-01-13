@@ -1,0 +1,32 @@
+[
+  {
+    "filename": "img1.jpg",
+    "detections": [
+      {
+        "label": "gloved_hand",
+        "confidence": 0.86,
+        "bbox": [
+          16,
+          3,
+          594,
+          480
+        ]
+      }
+    ]
+  },
+  {
+    "filename": "img2.jpg",
+    "detections": [
+      {
+        "label": "bare_hand",
+        "confidence": 0.66,
+        "bbox": [
+          258,
+          22,
+          544,
+          555
+        ]
+      }
+    ]
+  }
+]
